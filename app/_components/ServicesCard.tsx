@@ -3,8 +3,9 @@ import React from 'react'
 
 const ServicesCard = () => {
     return (
-        <div className='grid md:flex gap-10 p-10 items-center justify-center cursor-pointer'>
-            <div className="relative flex flex-col text-gray-700 items-center bg-white shadow-md bg-clip-border rounded-xl w-96 hover:bg-[#f8f9ff]">
+        <div className='container mx-auto p-4'>
+        <div className='grid sm:grid-cols-2 grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 gap-x-10 gap-y-10 lg:gap-y-16  cursor-pointer mt-10'>
+            <div className="relative flex flex-col text-gray-700 items-center bg-white shadow-md bg-clip-border rounded-xl  hover:bg-[#f8f9ff]">
                 <span className='text-lg pt-10'><UserSearch size='50' /></span>
                 <div className="p-6 text-center">
                     <h4 className="block mb-2 font-sans text-xl sm:text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
@@ -19,7 +20,7 @@ const ServicesCard = () => {
             </div>
 
 
-            <div className="relative flex flex-col items-center text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96 hover:bg-[#f8f9ff] ">
+            <div className="relative flex flex-col items-center text-gray-700 bg-white shadow-md bg-clip-border rounded-xl  hover:bg-[#f8f9ff] ">
                 <span className='pt-10'><Scaling size='50' /></span>
                 <div className="p-6 text-center">
                     <h4 className="block mb-2 font-sans text-xl sm:text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
@@ -34,7 +35,7 @@ const ServicesCard = () => {
             </div>
 
 
-            <div className="relative flex flex-col items-center text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96 hover:bg-[#f8f9ff] ">
+            <div className="relative flex flex-col items-center text-gray-700 bg-white shadow-md bg-clip-border rounded-xl  hover:bg-[#f8f9ff] ">
                 <span className='pt-10'><Figma size='50' /></span>
                 <div className="p-6 text-center">
                     <h4 className="block mb-2 font-sans text-xl sm:text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
@@ -51,7 +52,7 @@ const ServicesCard = () => {
             </div>
 
 
-            <div className="relative items-center flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96 hover:bg-[#f8f9ff] ">
+            <div className="relative items-center flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl  hover:bg-[#f8f9ff] ">
                 <span className='pt-10'><Target size='50' /></span>
                 <div className="p-6 text-center">
                     <h4 className="block mb-2 font-sans text-xl sm:text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
@@ -64,6 +65,7 @@ const ServicesCard = () => {
                 </div>
 
             </div>
+        </div>
         </div>
     )
 }

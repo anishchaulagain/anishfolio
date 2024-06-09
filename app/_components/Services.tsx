@@ -3,7 +3,7 @@ import ServicesCard from './ServicesCard'
 
 const Services = () => {
   return (
-    <div>
+    <div id='services' className='mb-20'>
         <div className='flex flex-col gap-2  text-center px-2 md:p-10 md:gap-3 '>
             <h2 className='text-lg md:text-xl text-[#5c7af8] font-semibold'>What I Offer?</h2>
             <h1 className='text-3xl md:text-5xl font-bold'>My Services</h1>
@@ -12,7 +12,7 @@ const Services = () => {
              
 
         </div>
-        <div className='pt-10'>
+        <div className='p-10'>
             <ServicesCard/>
         </div>
     </div>

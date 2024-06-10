@@ -26,7 +26,7 @@ const Faq = () => {
 
     ]
     return (
-        <div className='pt-10'>
+        <div className='pt-10 pb-10'>
             <div className='flex justify-center'>
                 <h1 className='text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl'>FAQS</h1>
             </div>

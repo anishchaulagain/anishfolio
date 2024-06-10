@@ -8,6 +8,7 @@ import About from "./_components/About";
 import Footer from "./_components/Footer";
 import Faq from "./_components/Faq";
 import SocialMedia from "./_components/SocialMedias";
+import Contact from "./_components/Contact";
 
 export default function Home() {
   return (
@@ -15,9 +16,11 @@ export default function Home() {
     <Navbar/>
     <Hero/>
     <About/>
+    <Projects/>
     <Services/>
      <Skills/>
      <Faq/>
+     <Contact/>
      <SocialMedia/>
      <Footer/>
     </>

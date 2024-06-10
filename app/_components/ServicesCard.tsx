@@ -3,7 +3,7 @@ import React from 'react'
 
 const ServicesCard = () => {
     return (
-        <div className='container mx-auto p-4'>
+        <div className='container mx-auto py-3 '>
         <div className='grid sm:grid-cols-2 grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 gap-x-10 gap-y-10 lg:gap-y-16  cursor-pointer mt-10'>
             <div className="relative flex flex-col text-gray-700 items-center bg-white shadow-md bg-clip-border rounded-xl  hover:bg-[#f8f9ff]">
                 <span className='text-lg pt-10'><UserSearch size='50' /></span>

@@ -9,6 +9,11 @@ const Navbar = () => {
     const handleNav = () => {
         setNav(!nav);
     };
+
+    const [activeIndex, setActiveIndex] = useState(null);
+
+    
+
     const navigation = [
         {
             id: 1,
@@ -25,7 +30,7 @@ const Navbar = () => {
         {
             id: 3,
             title: 'PROJECTS',
-            href: '/projects'
+            href: '#projects'
 
         },
         {
@@ -56,8 +61,8 @@ const Navbar = () => {
                         <nav aria-label="Global" className='font-bold'>
                             <div className="flex items-center gap-6 md:gap-10 lg:gap-12 text-sm font-bold ">
 
-                                {navigation.map((item) => (
-                                    <a href={item.href} key={item.id} className='nav-link'>{item.title}</a>
+                                {navigation.map((item, index) => (
+                                    <a href={item.href}  key={item.id} className={`nav-link ${activeIndex === index ? 'text-[#5c7af8]' : ''}`}>{item.title}</a>
                                 ))}
 
                             </div>

@@ -42,6 +42,13 @@ const Webproducts = [
         imageSrc: 'https://res.cloudinary.com/dv9s1kiz2/image/upload/v1737274301/Portfolio/coverlettergenerator.png',
         imageAlt: 'Coverlettergenerator',
     },
+    {
+        id: 6,
+        name: 'A & C Trading Company',
+        href: 'https://aandctrading.com/',
+        imageSrc: 'https://res.cloudinary.com/dv9s1kiz2/image/upload/v1744901155/Portfolio/d24cea52-9869-4517-9851-22960b308da0.png',
+        imageAlt: 'A&CTradingCompany',
+    },
     // More products...
 ]
 

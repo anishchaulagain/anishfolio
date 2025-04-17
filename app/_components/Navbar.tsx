@@ -58,7 +58,7 @@ const Navbar = () => {
 
                     {/* Right Section */}
                     <div className="flex items-center gap-4">
-                      <Link href={'https://drive.google.com/file/d/1UJ0jkYaVAYjZjDSoEChYWyrFuwjG24f5/view'}>  <button className="hidden sm:block bg-[#5c7af8] text-white px-4 py-2 rounded">
+                      <Link href={'https://drive.google.com/file/d/1lGvsGpMWJF5-iOKZhDB2_lb67CMYyosO/view?usp=drive_link'}>  <button className="hidden sm:block bg-[#5c7af8] text-white px-4 py-2 rounded">
                             DOWNLOAD CV
                         </button></Link>
 
